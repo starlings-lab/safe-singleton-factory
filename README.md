@@ -71,6 +71,7 @@ Optionally, deployment may be done by manual configuration and execution of NPM 
 
 - Set `RPC` in the `.env` file for the new network.
 - Set `MNEMONIC` in the `.env` file.
+- Set `PK` in the `.env` file.
 - Estimate transaction params via `yarn estimate`
 - Run `yarn compile <chain_id> [--gasPrice <overwrite_gas_price>] [--gasLimit <overwrite_gas_limit>]`
 
